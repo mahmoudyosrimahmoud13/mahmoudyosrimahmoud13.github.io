@@ -346,3 +346,15 @@ figcaption { font-family: var(--hand); font-size: 20px; color: var(--ink-3); pad
 .hero-roles span { border: 1.5px solid var(--ink); border-radius: 999px; padding: 5px 14px; font-size: 15px; font-weight: 600; }
 .hero-roles span:first-child { background: var(--note); border-color: var(--note); color: var(--note-ink); }
 .hero-roles + .hero-sub { margin-top: 18px; }
+/* Studio */
+:root { --studio: #ffa36c; }
+:root[data-theme="light"] { --studio: #b4532a; }
+.spec.studio, .case.studio { --c: var(--studio); }
+.flow.three { grid-template-columns: repeat(3, 1fr); margin-bottom: 26px; }
+.flow code, .chapter code, .pipe-note code { font: 600 0.92em ui-monospace, "SF Mono", Menlo, monospace; }
+.pipe-note { color: var(--ink-2); margin: 0 0 16px; max-width: 70ch; }
+.code { margin-top: 36px; border: 1.5px solid var(--ink); border-radius: 8px; overflow: hidden; background: var(--frame); }
+.code-bar { padding: 8px 14px; border-bottom: 1.5px solid var(--ink); font-family: var(--hand); color: var(--note); font-size: 20px; background: var(--panel-solid); }
+.code pre { margin: 0; padding: 18px 20px; overflow-x: auto; font: 14px/1.65 ui-monospace, "SF Mono", Menlo, monospace; color: #e8edff; }
+:root[data-theme="light"] .code pre { color: #eef2ff; }
+@media (max-width: 760px) { .flow.three { grid-template-columns: 1fr; } .flow.three li { border-right: 0; border-bottom: 1px solid var(--rule); } .flow.three li:last-child { border-bottom: 0; } }

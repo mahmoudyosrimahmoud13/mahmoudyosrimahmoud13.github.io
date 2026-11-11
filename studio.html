@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio | Mahmoud Yosri</title>
+<meta name="description" content="Studio turns ordinary phone photos into clean, matching catalog photos, fully offline with a small AI model on the CPU. Pipeline, technologies and measured results.">
+<meta property="og:title" content="Studio | Mahmoud Yosri">
+<meta property="og:description" content="Studio turns ordinary phone photos into clean, matching catalog photos, fully offline with a small AI model on the CPU. Pipeline, technologies and measured results.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mahmoudyosrimahmoud13.github.io/studio.html">
+<meta property="og:image" content="https://mahmoudyosrimahmoud13.github.io/img/og.webp">
+<meta name="theme-color" content="#142a7a">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/site.js"></script>
+</head>
+<body class="case studio">
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="index.html"><b>Mahmoud Yosri</b><span class="hand">stuff maker</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="argon.html" class="hide-sm">Argon</a>
+      <a href="studio.html" aria-current="page" class="hide-sm">Studio</a>
+      <a href="rubies.html" class="hide-sm">Rubies</a>
+      <a href="hydro-alex.html" class="hide-sm">Hydro Alex</a>
+      <a href="codenote.html" class="hide-sm">CodeNote</a>
+      <a href="index.html#contact">Contact</a>
+      <button class="theme-btn" type="button" data-theme-toggle><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4L7 17M17 7l1.4-1.4M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg><span>Whiteprint</span></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="case-hero">
+    <div class="wrap">
+      <a class="back" href="index.html#work"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>All projects</a>
+      <div class="kind">case study, 2026</div>
+      <h1>Studio</h1>
+      <p class="lede">Clean, matching product photos in one click, on your own computer. Drop in phone photos and get back a catalog that looks like one photo shoot.</p>
+      <div class="actions"><a class="btn solid" href="https://github.com/mahmoudyosrimahmoud13/studio"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>Source code</a></div>
+      <dl class="facts"><div><dt>Role</dt><dd>Designed and built end to end</dd></div><div><dt>License</dt><dd>Open source, MIT</dd></div><div><dt>Runs on</dt><dd>Any laptop CPU, offline</dd></div><div><dt>Built with</dt><dd>Python, ONNX Runtime, FastAPI</dd></div></dl>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="cover"><div class="rig"><div class="tilt">
+  <div class="browser"><div class="bar"><i></i><i></i><i></i><span>localhost:8300</span></div><img src="img/studio/01-batch-8-photos.webp" alt="Studio with a batch of eight real product photos" loading="lazy"></div>
+  <div class="note" style="left:6%;top:102%"><svg style="right:-84px;top:-58px" viewBox="0 0 90 70" aria-hidden="true"><path d="M4,62 C32,58 60,44 76,12 M76,12 L64,18 M76,12 L78,26"/></svg><span class="t">8 messy real photos in, one clean look out</span></div><div class="note" style="left:60%;top:102%"><svg style="left:-78px;top:-58px" viewBox="0 0 90 70" aria-hidden="true"><path d="M84,62 C58,58 28,46 14,12 M14,12 L12,26 M14,12 L26,18"/></svg><span class="t">warnings say what to reshoot</span></div>
+</div></div></div></div>
+
+  <section>
+    <div class="wrap prose">
+      <div class="margin-note">the problem</div>
+      <h2>Small shops can't afford a photo studio</h2>
+      <p>Small shops shoot products on a phone, on whatever table is free. The backgrounds are messy, the light is yellow at night, and every photo has a different size and margin, so the catalog looks cheap. Online background removers cost money per photo and upload the shop's photos to someone else's server.</p>
+      <p>Studio does the whole job <strong>on the shop's own laptop</strong>, with <strong>no GPU, no account and no upload</strong>, and makes every photo match.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="sheet-head"><h2>The pipeline</h2><span class="hand">a slow step that runs once, and a fast step that runs on every change</span></div>
+      <ol class="flow three"><li><span class="n">1</span><b><code>load()</code></b>Opens the photo the right way up, reads iPhone HEIC, shrinks huge photos.</li><li><span class="n">2</span><b><code>mask()</code></b>The AI gives every pixel a 0 to 1 product score. About 1.2 s, done once and kept.</li><li><span class="n">3</span><b><code>render()</code></b>Everything else, about 0.4 s, on every change you make.</li></ol>
+      <p class="pipe-note">The editor keeps each photo's mask, so moving a slider never waits for the AI again. Inside <code>render()</code>, the steps always run in this order:</p>
+      <ol class="flow"><li><span class="n">1</span><b>Touch-ups</b>Your Keep and Remove paint is merged into the mask.</li><li><span class="n">2</span><b>Geometry</b>Crop, rotate, mirror and straighten move the photo and mask together.</li><li><span class="n">3</span><b>Clean edges</b>Stray bits dropped, edge pixels decontaminated, so no halo.</li><li><span class="n">4</span><b>Light and color</b>White balance from neutral pixels only, gentle stretch, then your sliders.</li><li><span class="n">5</span><b>Placement</b>Cut to the product, scaled and placed with the same margin every time.</li><li><span class="n">6</span><b>Finish</b>Soft shadow, background, logo, then WebP, JPG or PNG.</li></ol>
+      <div class="split" style="margin-top:44px">
+        <ul class="decisions" style="grid-template-columns:1fr">
+          <li><b>Colors that stay true</b>The white balance is read only from pixels that look neutral (walls, whites, grays), never from the product, at half strength and at most 8% per color. A maroon dress stays maroon. If there is too little neutral area, nothing changes.</li>
+          <li><b>Warnings measured, not guessed</b>Small: short side under 1000 px. Dark: the whole photo's average, so a black shirt on a light table is fine. Blurry: measured along the product's edges. Cut off: the product touches a side.</li>
+        </ul>
+        <ul class="decisions" style="grid-template-columns:1fr">
+          <li><b>No halo</b>Edge pixels are decontaminated: the old background's color is pulled out of them before the new background goes in.</li>
+          <li><b>Safe by default</b>Models are checked by SHA-256 before use, huge "decompression bomb" files are refused, results are deleted after 24 hours, and the page listens only on your own computer.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="sheet-head"><h2>Technologies</h2><span class="hand">small, boring, and all running on the CPU</span></div>
+      <div class="split">
+        <table class="bom"><caption>Parts</caption><thead><tr><th>No.</th><th>Part</th><th>Used for</th></tr></thead><tbody><tr><td>01</td><td>Python 3.10+</td><td>The whole tool</td></tr><tr><td>02</td><td>ONNX Runtime</td><td>Runs both AI models on the CPU</td></tr><tr><td>03</td><td>IS-Net, 1024 px, 170 MB</td><td>Best: hair, lace, glass, busy photos</td></tr><tr><td>04</td><td>U²-Net-P, 320 px, 4.5 MB</td><td>Fast: about 6 times quicker</td></tr><tr><td>05</td><td>NumPy</td><td>Masks, colors, edges, warnings</td></tr><tr><td>06</td><td>Pillow, pillow-heif</td><td>Opening, HEIC, shadows, files</td></tr><tr><td>07</td><td>FastAPI, Uvicorn</td><td>The page's small API</td></tr><tr><td>08</td><td>One HTML file</td><td>The page, no build step</td></tr><tr><td>09</td><td>pytest</td><td>Tests for every tool</td></tr><tr><td>10</td><td>Bash (run.sh)</td><td>Setup, model download, start, stop</td></tr></tbody></table>
+        <table class="bom"><caption>Code</caption><thead><tr><th>No.</th><th>File</th><th>What it is</th></tr></thead><tbody><tr><td>01</td><td>studio/pipeline.py</td><td>load(), mask(), render(), process(). No web code, reusable</td></tr><tr><td>02</td><td>studio/web.py</td><td>The API. Keeps each photo's mask</td></tr><tr><td>03</td><td>studio/static/index.html</td><td>The page and the editor</td></tr><tr><td>04</td><td>studio/cli.py</td><td>Cleans a whole folder: ./run.sh clean</td></tr><tr><td>05</td><td>run.sh</td><td>Venv, libraries, models with checks</td></tr><tr><td>06</td><td>tests/</td><td>Colors, warnings, every editor tool, speed</td></tr></tbody></table>
+      </div>
+      <div class="code"><div class="code-bar">Use it from Python</div><pre>from studio.pipeline import load, mask, render, Options, Edits
+
+img = load(open(&quot;dress.jpg&quot;, &quot;rb&quot;).read())
+m = mask(img, &quot;best&quot;)                      # slow, once
+r = render(img, m, Options(background=&quot;#FFFFFF&quot;, shape=&quot;portrait&quot;),
+           Edits(crop=(0.1, 0.05, 0.8, 0.9), warmth=0.2))   # fast, as often as you like
+open(&quot;dress-clean.webp&quot;, &quot;wb&quot;).write(r.data)
+print(r.warnings)                          # for example [&#x27;small&#x27;, &#x27;blurry&#x27;]</pre></div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="sheet-head"><h2>Measured against known truth</h2><span class="hand">real photos, with problems I added on purpose, so the right answer is known</span></div>
+      <div class="split">
+        <div class="prose">
+          <p>I took <strong>8 real photos</strong> from open-source projects (sushi, a bike, a desk lamp, a cassette in a hand, an outfit, a dress, plants and grocery bags) and made copies with one known problem each: warm bulb light, green tube light, too dark, blurry, too small, and cut off. Because I added the problem myself, the original is the truth, and every result can be scored by code.</p>
+          <p>Color error is ΔE in Lab color, the standard way to measure how different two colors look. About 2 to 3 is hard to see.</p>
+        </div>
+        <table class="bom"><caption>Results</caption><thead><tr><th>No.</th><th>Test</th><th>Result</th></tr></thead><tbody><tr><td>01</td><td>Dark warning</td><td>8 of 8 dark copies caught</td></tr><tr><td>02</td><td>Blurry warning</td><td>8 of 8 blurry copies caught</td></tr><tr><td>03</td><td>Small warning</td><td>3 of 3 small copies caught</td></tr><tr><td>04</td><td>Cut-off warning</td><td>6 of 8 caught</td></tr><tr><td>05</td><td>Tap a white spot</td><td>Color error 10.6 to 3.5 (median, 12 tests)</td></tr><tr><td>06</td><td>AI step, Best</td><td>1.2 s per photo on 2 CPU cores</td></tr><tr><td>07</td><td>AI step, Fast</td><td>0.2 s per photo</td></tr><tr><td>08</td><td>Each change</td><td>0.4 s to re-render</td></tr></tbody></table>
+      </div>
+      <ul class="decisions" style="margin-top:30px">
+        <li><b>What the numbers taught me</b>The automatic color fix is gentle on purpose, so it never ruins a product's real color. That also means it can't undo strong colored light on its own. For that, one tap on a white or gray spot does the job.</li>
+        <li><b>Where Fast falls short</b>Fast and Best agree on 99% of pixels for simple photos, but only 46% on the busy plants photo. That's why Studio says: Fast for plain products, Best for busy photos.</li>
+      </ul>
+      <div class="shots two" style="margin-top:30px"><figure><div class="shot "><img src="img/studio/pair-outfit-warm-auto.webp" alt="warm bulb light, automatic fix only" loading="lazy" decoding="async"></div><figcaption>warm bulb light, automatic fix only</figcaption></figure><figure><div class="shot "><img src="img/studio/pair-outfit-warm-white-spot.webp" alt="the same photo after one tap on the wall" loading="lazy" decoding="async"></div><figcaption>the same photo after one tap on the wall</figcaption></figure></div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="sheet-head"><h2>Every feature</h2><span class="hand">all screenshots from the real app, running on the test photos</span></div>
+      <div class="chapter">
+  <div class="text"><span class="step">1</span><h3>One batch, one look</h3><p>Pick the look once on the left, then drop up to 50 photos (iPhone HEIC works). Each one comes back cut out, centered, with the same margin, background and shadow.</p><ul><li><b>Speed:</b> Best edges or Fast.</li><li><b>Background:</b> white, soft gray, any color, or see-through.</li><li><b>Shape:</b> square, tall 4:5 for clothes, or the photo's own shape.</li><li><b>Position:</b> centered, or standing on the floor.</li><li><b>Download all</b> as one ZIP.</li></ul></div>
+  <div><figure><div class="shot "><img src="img/studio/01b-batch-8-photos-full.webp" alt="eight real photos, cleaned with the same settings" loading="lazy" decoding="async"></div><figcaption>eight real photos, cleaned with the same settings</figcaption></figure></div>
+</div>
+      <div class="chapter">
+  <div class="text"><span class="step">2</span><h3>Warnings before you post</h3><p>Each photo gets plain notes on what to fix next time you shoot: too small, too dark, blurry, cut off, or the product wasn't found clearly.</p></div>
+  <div><figure><div class="shot "><img src="img/studio/02b-warnings-full.webp" alt="the copies with known problems, each one flagged" loading="lazy" decoding="async"></div><figcaption>the copies with known problems, each one flagged</figcaption></figure></div>
+</div>
+      <div class="chapter">
+  <div class="text"><span class="step">3</span><h3>Compare</h3><p>Before and after, side by side, for any photo.</p></div>
+  <div><figure><div class="shot "><img src="img/studio/03-compare-before-after.webp" alt="before and after" loading="lazy" decoding="async"></div><figcaption>before and after</figcaption></figure></div>
+</div>
+      <div class="chapter">
+  <div class="text"><span class="step">4</span><h3>Fix colors with one tap</h3><p>Open a photo, go to <b>Fix colors</b> and tap something that should be white or gray. The colors are corrected from that spot. There's also a green and pink slider, and the automatic fix can be turned off per photo.</p></div>
+  <div><div class="shots two"><figure><div class="shot crop"><img src="img/studio/04-fix-colors-before-tap.webp" alt="warm light, before the tap" loading="lazy" decoding="async"></div><figcaption>warm light, before the tap</figcaption></figure><figure><div class="shot crop"><img src="img/studio/05-fix-colors-after-tap.webp" alt="after tapping the wall" loading="lazy" decoding="async"></div><figcaption>after tapping the wall</figcaption></figure></div></div>
+</div>
+      <div class="chapter">
+  <div class="text"><span class="step">5</span><h3>Touch up what the AI missed</h3><p>The red overlay shows what will be removed. Paint <b>Remove</b> over leftovers, like the hand holding this cassette, or <b>Keep</b> over parts the AI dropped.</p></div>
+  <div><div class="shots two"><figure><div class="shot crop"><img src="img/studio/06a-touch-up-before.webp" alt="the AI keeps the hand" loading="lazy" decoding="async"></div><figcaption>the AI keeps the hand</figcaption></figure><figure><div class="shot crop"><img src="img/studio/06-touch-up-remove-hand.webp" alt="painted out, only the cassette left" loading="lazy" decoding="async"></div><figcaption>painted out, only the cassette left</figcaption></figure></div></div>
+</div>
+      <div class="chapter">
+  <div class="text"><span class="step">6</span><h3>Crop, rotate and sliders</h3><p>Crop free, 1:1 or 4:5. Rotate, mirror and straighten. Brightness, contrast, color, warmth, sharpness, and an own product size per photo. The result updates live.</p></div>
+  <div><div class="shots two"><figure><div class="shot crop"><img src="img/studio/07-crop-square.webp" alt="a square crop" loading="lazy" decoding="async"></div><figcaption>a square crop</figcaption></figure><figure><div class="shot crop"><img src="img/studio/08-editor-sliders.webp" alt="sliders with a live result" loading="lazy" decoding="async"></div><figcaption>sliders with a live result</figcaption></figure></div></div>
+</div>
+      <div class="chapter">
+  <div class="text"><span class="step">7</span><h3>File names and your logo</h3><p>Type a product code like <b>NM-102</b> and the photos become NM-102-1, NM-102-2, in the order shown. Add a logo in a corner or the middle, with its own size and strength.</p></div>
+  <div><figure><div class="shot "><img src="img/studio/09-names-logo-soft-gray-4x5.webp" alt="soft gray, tall 4:5, named NM-102 with a logo" loading="lazy" decoding="async"></div><figcaption>soft gray, tall 4:5, named NM-102 with a logo</figcaption></figure><div class="shots phones-2" style="margin-top:16px"><figure><div class="shot "><img src="img/studio/10-settings-panel.webp" alt="the look settings" loading="lazy" decoding="async"></div><figcaption>the look settings</figcaption></figure><figure><div class="shot phone"><img src="img/studio/12-phone.webp" alt="on a phone, same Wi-Fi" loading="lazy" decoding="async"></div><figcaption>on a phone, same Wi-Fi</figcaption></figure></div></div>
+</div>
+      <div class="chapter">
+  <div class="text"><span class="step">8</span><h3>Arabic and dark</h3><p>The whole page works in Arabic, right to left, and in dark mode.</p></div>
+  <div><figure><div class="shot "><img src="img/studio/11-arabic-dark.webp" alt="Arabic, dark" loading="lazy" decoding="async"></div><figcaption>Arabic, dark</figcaption></figure></div>
+</div>
+      <div class="chapter">
+  <div class="text"><span class="step">9</span><h3>No page needed</h3><p><code>./run.sh clean</code> cleans a whole folder from the terminal, with the same warnings. Options for background, shape, file type and no enhancing.</p></div>
+  <div><figure><div class="shot "><img src="img/studio/13-terminal-clean-a-folder.webp" alt="five photos cleaned in 11 seconds" loading="lazy" decoding="async"></div><figcaption>five photos cleaned in 11 seconds</figcaption></figure></div>
+</div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="sheet-head"><h2>Before and after</h2><span class="hand">default settings, nothing touched by hand</span></div>
+      <div class="shots two"><figure><div class="shot "><img src="img/studio/pair-sushi.webp" alt="sushi on a dark table" loading="lazy" decoding="async"></div><figcaption>sushi on a dark table</figcaption></figure><figure><div class="shot "><img src="img/studio/pair-bike.webp" alt="a bike on a forest path" loading="lazy" decoding="async"></div><figcaption>a bike on a forest path</figcaption></figure><figure><div class="shot "><img src="img/studio/pair-lamp.webp" alt="a desk lamp" loading="lazy" decoding="async"></div><figcaption>a desk lamp</figcaption></figure><figure><div class="shot "><img src="img/studio/pair-dress.webp" alt="a dress in front of a wall" loading="lazy" decoding="async"></div><figcaption>a dress in front of a wall</figcaption></figure></div>
+      <p class="private" style="margin-top:34px">Test photos come from open-source projects (rembg, U²-Net, CarveKit and SAM 2) under MIT and Apache 2.0 licenses.</p>
+      <a class="next-project" href="rubies.html"><span><small>next on the bench</small><b>Rubies</b></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <span>Drawn and built by Mahmoud Yosri in Alexandria, Egypt.</span>
+    <span><a href="https://github.com/mahmoudyosrimahmoud13">GitHub</a>, <a href="https://www.linkedin.com/in/mahmoud-yosri-b30a89212">LinkedIn</a>, <a href="mailto:mahmooudyosri@gmail.com">Email</a></span>
+  </div>
+</footer>
+</body>
+</html>

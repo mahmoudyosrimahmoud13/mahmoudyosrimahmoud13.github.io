@@ -372,3 +372,6 @@ figcaption { font-family: var(--hand); font-size: 20px; color: var(--ink-3); pad
 @media (max-width: 1180px) { .brand .hand { display: none; } }
 .flow.four { grid-template-columns: repeat(4, 1fr); }
 @media (max-width: 760px) { .flow.four { grid-template-columns: 1fr 1fr; } }
+.live{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}
+.live a{display:inline-flex;gap:8px;flex-wrap:wrap;border:0}
+.live img{height:24px;width:auto;display:block}

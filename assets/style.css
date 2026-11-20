@@ -378,3 +378,5 @@ figcaption { font-family: var(--hand); font-size: 20px; color: var(--ink-3); pad
 .titleblock .me-big{flex-direction:row;align-items:center;justify-content:flex-start;gap:28px}
 .me-photo{width:150px;height:150px;flex:none;border-radius:50%;object-fit:cover;border:2px solid var(--ink);outline:1.5px dashed var(--ink-3);outline-offset:7px;margin:8px}
 @media(max-width:700px){.titleblock .me-big{flex-direction:column;align-items:flex-start;gap:18px}.me-photo{width:112px;height:112px}}
+.spec-text .links{display:flex;flex-wrap:wrap;gap:14px 26px;align-items:baseline}
+.readmore.ext::after{content:" \2197";font-weight:600}
